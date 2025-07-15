@@ -1,0 +1,725 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hasanal Baroki - AI Engineer Portfolio</title>
+    <meta name="description" content="AI Engineer & Fullstack Developer specializing in LLMs, MLOps, and cloud infrastructure">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        slate: {
+                            700: '#334155',
+                            800: '#1e293b',
+                            900: '#0f172a'
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="min-h-screen bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900">
+    <!-- Header -->
+    <header class="relative overflow-hidden">
+        <div class="absolute inset-0 bg-gradient-to-r from-blue-600/20 to-purple-600/20"></div>
+        <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24">
+            <div class="text-center">
+                <div class="mb-8">
+                    <div class="w-32 h-32 mx-auto rounded-full bg-gradient-to-r from-blue-500 to-purple-600 p-1">
+                        <div class="w-full h-full rounded-full bg-slate-800 flex items-center justify-center">
+                            <span class="text-4xl">🤖</span>
+                        </div>
+                    </div>
+                </div>
+                <h1 class="text-5xl md:text-7xl font-bold text-white mb-6">
+                    <span class="bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">
+                        Hasanal Baroki
+                    </span>
+                </h1>
+                <p class="text-2xl text-purple-300 mb-4 font-semibold">
+                    AI Engineer & Fullstack Developer
+                </p>
+                <p class="text-lg text-gray-300 mb-8 max-w-3xl mx-auto">
+                    Passionate about building intelligent systems with LLMs, MLOps, and cloud infrastructure. 
+                    Specializing in multimodal AI, computer vision, NLP, and scalable data engineering solutions.
+                </p>
+                
+                <!-- Personal Info -->
+                <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-4 mb-8 max-w-4xl mx-auto">
+                    <div class="bg-slate-800/50 backdrop-blur-sm rounded-lg p-4 border border-slate-700">
+                        <div class="text-sm text-gray-400">Location</div>
+                        <div class="text-white font-medium">Binjai, Sumatera Utara</div>
+                    </div>
+                    <div class="bg-slate-800/50 backdrop-blur-sm rounded-lg p-4 border border-slate-700">
+                        <div class="text-sm text-gray-400">Languages</div>
+                        <div class="text-white font-medium">EN, JP, ID</div>
+                    </div>
+                    <div class="bg-slate-800/50 backdrop-blur-sm rounded-lg p-4 border border-slate-700">
+                        <div class="text-sm text-gray-400">Education</div>
+                        <div class="text-white font-medium">ITB - Mechanical Eng.</div>
+                    </div>
+                    <div class="bg-slate-800/50 backdrop-blur-sm rounded-lg p-4 border border-slate-700">
+                        <div class="text-sm text-gray-400">Born</div>
+                        <div class="text-white font-medium">August 13, 1995</div>
+                    </div>
+                </div>
+
+                <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                    <a href="#smartcica" class="inline-block bg-gradient-to-r from-blue-500 to-purple-600 text-white px-8 py-4 rounded-full text-lg font-semibold hover:from-blue-600 hover:to-purple-700 transition-all shadow-lg hover:shadow-xl transform hover:scale-105">
+                        View Smart Cica Project 🚀
+                    </a>
+                    <a href="mailto:hasanal.baroki@gmail.com" class="inline-block border-2 border-purple-400 text-purple-400 px-8 py-4 rounded-full text-lg font-semibold hover:bg-purple-400 hover:text-white transition-all">
+                        Get In Touch 📧
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Highlights Section -->
+    <section class="py-20 bg-slate-800/50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold text-white mb-6">Professional Highlights</h2>
+                <div class="w-24 h-1 bg-gradient-to-r from-blue-500 to-purple-500 mx-auto mb-8"></div>
+            </div>
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div class="bg-slate-800/80 backdrop-blur-sm rounded-xl p-8 border border-slate-700">
+                    <div class="text-3xl mb-4">🤖</div>
+                    <h3 class="text-xl font-semibold text-white mb-4">LLM Chatbots</h3>
+                    <p class="text-gray-300">
+                        Built LLM chatbots with multi-turn conversations, context retrieval, and persona control using OpenAI and LangChain.
+                    </p>
+                </div>
+                <div class="bg-slate-800/80 backdrop-blur-sm rounded-xl p-8 border border-slate-700">
+                    <div class="text-3xl mb-4">⚙️</div>
+                    <h3 class="text-xl font-semibold text-white mb-4">MLOps Pipelines</h3>
+                    <p class="text-gray-300">
+                        Designed end-to-end MLOps pipelines with CI/CD, model registry, and automated tests for safe model deployment.
+                    </p>
+                </div>
+                <div class="bg-slate-800/80 backdrop-blur-sm rounded-xl p-8 border border-slate-700">
+                    <div class="text-3xl mb-4">🔍</div>
+                    <h3 class="text-xl font-semibold text-white mb-4">AI Applications</h3>
+                    <p class="text-gray-300">
+                        Delivered projects in NLP, Computer Vision, and Audio Recognition from data prep to inference APIs.
+                    </p>
+                </div>
+                <div class="bg-slate-800/80 backdrop-blur-sm rounded-xl p-8 border border-slate-700">
+                    <div class="text-3xl mb-4">📊</div>
+                    <h3 class="text-xl font-semibold text-white mb-4">Data Engineering</h3>
+                    <p class="text-gray-300">
+                        Engineered scalable data pipelines with Airflow and SQL that feed real-time features to AI services.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tech Stacks Section -->
+    <section class="py-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold text-white mb-6">Technical Skills</h2>
+                <div class="w-24 h-1 bg-gradient-to-r from-blue-500 to-purple-500 mx-auto mb-8"></div>
+            </div>
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-slate-800/80 backdrop-blur-sm rounded-xl p-6 border border-slate-700 hover:border-purple-500 transition-all">
+                    <h3 class="text-xl font-semibold text-white mb-4">Programming Languages</h3>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="px-3 py-1 bg-gradient-to-r from-blue-500/20 to-purple-500/20 text-blue-300 rounded-full text-sm border border-blue-500/30">Python</span>
+                        <span class="px-3 py-1 bg-gradient-to-r from-blue-500/20 to-purple-500/20 text-blue-300 rounded-full text-sm border border-blue-500/30">Go</span>
+                        <span class="px-3 py-1 bg-gradient-to-r from-blue-500/20 to-purple-500/20 text-blue-300 rounded-full text-sm border border-blue-500/30">JavaScript</span>
+                        <span class="px-3 py-1 bg-gradient-to-r from-blue-500/20 to-purple-500/20 text-blue-300 rounded-full text-sm border border-blue-500/30">TypeScript</span>
+                        <span class="px-3 py-1 bg-gradient-to-r from-blue-500/20 to-purple-500/20 text-blue-300 rounded-full text-sm border border-blue-500/30">SQL</span>
+                    </div>
+                </div>
+                <div class="bg-slate-800/80 backdrop-blur-sm rounded-xl p-6 border border-slate-700 hover:border-purple-500 transition-all">
+                    <h3 class="text-xl font-semibold text-white mb-4">AI/ML Frameworks</h3>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="px-3 py-1 bg-gradient-to-r from-blue-500/20 to-purple-500/20 text-blue-300 rounded-full text-sm border border-blue-500/30">TensorFlow</span>
+                        <span class="px-3 py-1 bg-gradient-to-r from-blue-500/20 to-purple-500/20 text-blue-300 rounded-full text-sm border border-blue-500/30">PyTorch</span>
+                        <span class="px-3 py-1 bg-gradient-to-r from-blue-500/20 to-purple-500/20 text-blue-300 rounded-full text-sm border border-blue-500/30">Scikit-learn</span>
+                        <span class="px-3 py-1 bg-gradient-to-r from-blue-500/20 to-purple-500/20 text-blue-300 rounded-full text-sm border border-blue-500/30">OpenCV</span>
+                        <span class="px-3 py-1 bg-gradient-to-r from-blue-500/20 to-purple-500/20 text-blue-300 rounded-full text-sm border border-blue-500/30">LangChain</span>
+                        <span class="px-3 py-1 bg-gradient-to-r from-blue-500/20 to-purple-500/20 text-blue-300 rounded-full text-sm border border-blue-500/30">Rasa</span>
+                    </div>
+                </div>
+                <div class="bg-slate-800/80 backdrop-blur-sm rounded-xl p-6 border border-slate-700 hover:border-purple-500 transition-all">
+                    <h3 class="text-xl font-semibold text-white mb-4">LLM & AI Services</h3>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="px-3 py-1 bg-gradient-to-r from-blue-500/20 to-purple-500/20 text-blue-300 rounded-full text-sm border border-blue-500/30">OpenAI GPT</span>
+                        <span class="px-3 py-1 bg-gradient-to-r from-blue-500/20 to-purple-500/20 text-blue-300 rounded-full text-sm border border-blue-500/30">BERT</span>
+                        <span class="px-3 py-1 bg-gradient-to-r from-blue-500/20 to-purple-500/20 text-blue-300 rounded-full text-sm border border-blue-500/30">ChatGPT API</span>
+                        <span class="px-3 py-1 bg-gradient-to-r from-blue-500/20 to-purple-500/20 text-blue-300 rounded-full text-sm border border-blue-500/30">HeyGen API</span>
+                        <span class="px-3 py-1 bg-gradient-to-r from-blue-500/20 to-purple-500/20 text-blue-300 rounded-full text-sm border border-blue-500/30">ElevenLabs</span>
+                        <span class="px-3 py-1 bg-gradient-to-r from-blue-500/20 to-purple-500/20 text-blue-300 rounded-full text-sm border border-blue-500/30">Vertex AI</span>
+                    </div>
+                </div>
+                <div class="bg-slate-800/80 backdrop-blur-sm rounded-xl p-6 border border-slate-700 hover:border-purple-500 transition-all">
+                    <h3 class="text-xl font-semibold text-white mb-4">Cloud Platforms</h3>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="px-3 py-1 bg-gradient-to-r from-blue-500/20 to-purple-500/20 text-blue-300 rounded-full text-sm border border-blue-500/30">Google Cloud Platform</span>
+                        <span class="px-3 py-1 bg-gradient-to-r from-blue-500/20 to-purple-500/20 text-blue-300 rounded-full text-sm border border-blue-500/30">AWS</span>
+                        <span class="px-3 py-1 bg-gradient-to-r from-blue-500/20 to-purple-500/20 text-blue-300 rounded-full text-sm border border-blue-500/30">Firebase</span>
+                    </div>
+                </div>
+                <div class="bg-slate-800/80 backdrop-blur-sm rounded-xl p-6 border border-slate-700 hover:border-purple-500 transition-all">
+                    <h3 class="text-xl font-semibold text-white mb-4">DevOps & Infrastructure</h3>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="px-3 py-1 bg-gradient-to-r from-blue-500/20 to-purple-500/20 text-blue-300 rounded-full text-sm border border-blue-500/30">Docker</span>
+                        <span class="px-3 py-1 bg-gradient-to-r from-blue-500/20 to-purple-500/20 text-blue-300 rounded-full text-sm border border-blue-500/30">Kubernetes</span>
+                        <span class="px-3 py-1 bg-gradient-to-r from-blue-500/20 to-purple-500/20 text-blue-300 rounded-full text-sm border border-blue-500/30">Terraform</span>
+                        <span class="px-3 py-1 bg-gradient-to-r from-blue-500/20 to-purple-500/20 text-blue-300 rounded-full text-sm border border-blue-500/30">Ansible</span>
+                        <span class="px-3 py-1 bg-gradient-to-r from-blue-500/20 to-purple-500/20 text-blue-300 rounded-full text-sm border border-blue-500/30">GitHub Actions</span>
+                        <span class="px-3 py-1 bg-gradient-to-r from-blue-500/20 to-purple-500/20 text-blue-300 rounded-full text-sm border border-blue-500/30">Cloud Build</span>
+                    </div>
+                </div>
+                <div class="bg-slate-800/80 backdrop-blur-sm rounded-xl p-6 border border-slate-700 hover:border-purple-500 transition-all">
+                    <h3 class="text-xl font-semibold text-white mb-4">Databases & Storage</h3>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="px-3 py-1 bg-gradient-to-r from-blue-500/20 to-purple-500/20 text-blue-300 rounded-full text-sm border border-blue-500/30">MongoDB</span>
+                        <span class="px-3 py-1 bg-gradient-to-r from-blue-500/20 to-purple-500/20 text-blue-300 rounded-full text-sm border border-blue-500/30">PostgreSQL</span>
+                        <span class="px-3 py-1 bg-gradient-to-r from-blue-500/20 to-purple-500/20 text-blue-300 rounded-full text-sm border border-blue-500/30">MySQL</span>
+                        <span class="px-3 py-1 bg-gradient-to-r from-blue-500/20 to-purple-500/20 text-blue-300 rounded-full text-sm border border-blue-500/30">BigQuery</span>
+                        <span class="px-3 py-1 bg-gradient-to-r from-blue-500/20 to-purple-500/20 text-blue-300 rounded-full text-sm border border-blue-500/30">Redis</span>
+                        <span class="px-3 py-1 bg-gradient-to-r from-blue-500/20 to-purple-500/20 text-blue-300 rounded-full text-sm border border-blue-500/30">Pinecone</span>
+                    </div>
+                </div>
+                <div class="bg-slate-800/80 backdrop-blur-sm rounded-xl p-6 border border-slate-700 hover:border-purple-500 transition-all">
+                    <h3 class="text-xl font-semibold text-white mb-4">Frontend Technologies</h3>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="px-3 py-1 bg-gradient-to-r from-blue-500/20 to-purple-500/20 text-blue-300 rounded-full text-sm border border-blue-500/30">Next.js</span>
+                        <span class="px-3 py-1 bg-gradient-to-r from-blue-500/20 to-purple-500/20 text-blue-300 rounded-full text-sm border border-blue-500/30">React</span>
+                        <span class="px-3 py-1 bg-gradient-to-r from-blue-500/20 to-purple-500/20 text-blue-300 rounded-full text-sm border border-blue-500/30">Tailwind CSS</span>
+                        <span class="px-3 py-1 bg-gradient-to-r from-blue-500/20 to-purple-500/20 text-blue-300 rounded-full text-sm border border-blue-500/30">Leaflet.js</span>
+                    </div>
+                </div>
+                <div class="bg-slate-800/80 backdrop-blur-sm rounded-xl p-6 border border-slate-700 hover:border-purple-500 transition-all">
+                    <h3 class="text-xl font-semibold text-white mb-4">Backend Frameworks</h3>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="px-3 py-1 bg-gradient-to-r from-blue-500/20 to-purple-500/20 text-blue-300 rounded-full text-sm border border-blue-500/30">FastAPI</span>
+                        <span class="px-3 py-1 bg-gradient-to-r from-blue-500/20 to-purple-500/20 text-blue-300 rounded-full text-sm border border-blue-500/30">Django</span>
+                        <span class="px-3 py-1 bg-gradient-to-r from-blue-500/20 to-purple-500/20 text-blue-300 rounded-full text-sm border border-blue-500/30">Flask</span>
+                    </div>
+                </div>
+                <div class="bg-slate-800/80 backdrop-blur-sm rounded-xl p-6 border border-slate-700 hover:border-purple-500 transition-all">
+                    <h3 class="text-xl font-semibold text-white mb-4">Data Engineering</h3>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="px-3 py-1 bg-gradient-to-r from-blue-500/20 to-purple-500/20 text-blue-300 rounded-full text-sm border border-blue-500/30">Apache Airflow</span>
+                        <span class="px-3 py-1 bg-gradient-to-r from-blue-500/20 to-purple-500/20 text-blue-300 rounded-full text-sm border border-blue-500/30">Dataflow</span>
+                        <span class="px-3 py-1 bg-gradient-to-r from-blue-500/20 to-purple-500/20 text-blue-300 rounded-full text-sm border border-blue-500/30">Cloud Composer</span>
+                        <span class="px-3 py-1 bg-gradient-to-r from-blue-500/20 to-purple-500/20 text-blue-300 rounded-full text-sm border border-blue-500/30">ETL/ELT</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section class="py-20 bg-slate-800/50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold text-white mb-6">Career History</h2>
+                <div class="w-24 h-1 bg-gradient-to-r from-blue-500 to-purple-500 mx-auto mb-8"></div>
+                
+                <!-- Company Color Legend -->
+                <div class="flex flex-wrap justify-center gap-6 mb-8">
+                    <div class="flex items-center gap-2">
+                        <div class="w-3 h-3 rounded-full bg-emerald-500"></div>
+                        <span class="text-emerald-400 text-sm font-medium">Freelance</span>
+                    </div>
+                    <div class="flex items-center gap-2">
+                        <div class="w-3 h-3 rounded-full bg-blue-500"></div>
+                        <span class="text-blue-400 text-sm font-medium">Topgate Co., Ltd.</span>
+                    </div>
+                    <div class="flex items-center gap-2">
+                        <div class="w-3 h-3 rounded-full bg-purple-500"></div>
+                        <span class="text-purple-400 text-sm font-medium">Propulse Co., Ltd.</span>
+                    </div>
+                    <div class="flex items-center gap-2">
+                        <div class="w-3 h-3 rounded-full bg-orange-500"></div>
+                        <span class="text-orange-400 text-sm font-medium">YKK Co., Ltd.</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="max-w-5xl mx-auto">
+                <!-- Dropdown -->
+                <div class="relative mb-8">
+                    <button id="experienceDropdown" class="w-full bg-slate-800 border border-emerald-500 hover:border-emerald-400 rounded-xl px-6 py-4 text-left text-white transition-all flex justify-between items-center">
+                        <div>
+                            <div class="text-lg font-semibold" id="selectedTitle">
+                                Multimodal AI Chatbot Platform (Fullstack Engineer)
+                            </div>
+                            <div class="text-sm text-emerald-400" id="selectedCompany">
+                                Freelance Job, Indonesia (Remote) • March 2025 - Present
+                            </div>
+                        </div>
+                        <div class="flex items-center gap-3">
+                            <div class="w-3 h-3 rounded-full bg-emerald-500" id="selectedDot"></div>
+                            <svg id="dropdownArrow" class="w-5 h-5 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                            </svg>
+                        </div>
+                    </button>
+                    
+                    <div id="experienceList" class="absolute top-full left-0 right-0 bg-slate-800 border border-slate-700 rounded-xl mt-2 overflow-hidden z-10 max-h-96 overflow-y-auto hidden">
+                        <!-- Experience options will be populated by JavaScript -->
+                    </div>
+                </div>
+
+                <!-- Experience Details -->
+                <div id="experienceDetails" class="bg-slate-800/80 backdrop-blur-sm rounded-xl p-8 border border-emerald-500 bg-emerald-500/10">
+                    <!-- Details will be populated by JavaScript -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section class="py-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold text-white mb-6">Certifications</h2>
+                <div class="w-24 h-1 bg-gradient-to-r from-blue-500 to-purple-500 mx-auto mb-8"></div>
+            </div>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
+                <div class="bg-slate-800/80 backdrop-blur-sm rounded-xl p-6 border border-slate-700 hover:border-yellow-500 transition-all hover:shadow-lg hover:shadow-yellow-500/20">
+                    <div class="flex items-start gap-4">
+                        <div class="text-3xl">🏆</div>
+                        <div class="flex-1">
+                            <h3 class="text-lg font-semibold text-white mb-2">
+                                Google Cloud Certified - Professional Machine Learning Engineer
+                            </h3>
+                            <div class="text-yellow-400 font-medium mb-1">Google Cloud</div>
+                            <div class="text-gray-400 text-sm">Issued: 2025</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-slate-800/80 backdrop-blur-sm rounded-xl p-6 border border-slate-700 hover:border-yellow-500 transition-all hover:shadow-lg hover:shadow-yellow-500/20">
+                    <div class="flex items-start gap-4">
+                        <div class="text-3xl">📊</div>
+                        <div class="flex-1">
+                            <h3 class="text-lg font-semibold text-white mb-2">
+                                Google Cloud Certified - Professional Data Engineer
+                            </h3>
+                            <div class="text-yellow-400 font-medium mb-1">Google Cloud</div>
+                            <div class="text-gray-400 text-sm">Issued: 2024</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-slate-800/80 backdrop-blur-sm rounded-xl p-6 border border-slate-700 hover:border-yellow-500 transition-all hover:shadow-lg hover:shadow-yellow-500/20">
+                    <div class="flex items-start gap-4">
+                        <div class="text-3xl">☁️</div>
+                        <div class="flex-1">
+                            <h3 class="text-lg font-semibold text-white mb-2">
+                                Google Cloud Certified - Professional Cloud Architect
+                            </h3>
+                            <div class="text-yellow-400 font-medium mb-1">Google Cloud</div>
+                            <div class="text-gray-400 text-sm">Issued: 2023</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-slate-800/80 backdrop-blur-sm rounded-xl p-6 border border-slate-700 hover:border-yellow-500 transition-all hover:shadow-lg hover:shadow-yellow-500/20">
+                    <div class="flex items-start gap-4">
+                        <div class="text-3xl">🎯</div>
+                        <div class="flex-1">
+                            <h3 class="text-lg font-semibold text-white mb-2">
+                                Google Cloud Digital Leader
+                            </h3>
+                            <div class="text-yellow-400 font-medium mb-1">Google Cloud</div>
+                            <div class="text-gray-400 text-sm">Issued: 2023</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-slate-800/80 backdrop-blur-sm rounded-xl p-6 border border-slate-700 hover:border-yellow-500 transition-all hover:shadow-lg hover:shadow-yellow-500/20">
+                    <div class="flex items-start gap-4">
+                        <div class="text-3xl">🚀</div>
+                        <div class="flex-1">
+                            <h3 class="text-lg font-semibold text-white mb-2">
+                                Developing a REST API with Go and Cloud Run
+                            </h3>
+                            <div class="text-yellow-400 font-medium mb-1">Google Cloud</div>
+                            <div class="text-gray-400 text-sm">Issued: 2023</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-slate-800/80 backdrop-blur-sm rounded-xl p-6 border border-slate-700 hover:border-yellow-500 transition-all hover:shadow-lg hover:shadow-yellow-500/20">
+                    <div class="flex items-start gap-4">
+                        <div class="text-3xl">💻</div>
+                        <div class="flex-1">
+                            <h3 class="text-lg font-semibold text-white mb-2">
+                                Getting Started with Go
+                            </h3>
+                            <div class="text-yellow-400 font-medium mb-1">University of California, Irvine</div>
+                            <div class="text-gray-400 text-sm">Issued: 2023</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-slate-800/80 backdrop-blur-sm rounded-xl p-6 border border-slate-700 hover:border-yellow-500 transition-all hover:shadow-lg hover:shadow-yellow-500/20">
+                    <div class="flex items-start gap-4">
+                        <div class="text-3xl">⚙️</div>
+                        <div class="flex-1">
+                            <h3 class="text-lg font-semibold text-white mb-2">
+                                Deploying ML Web App on Google Kubernetes Engine
+                            </h3>
+                            <div class="text-yellow-400 font-medium mb-1">Autopilot</div>
+                            <div class="text-gray-400 text-sm">Issued: 2021</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-slate-800/80 backdrop-blur-sm rounded-xl p-6 border border-slate-700 hover:border-yellow-500 transition-all hover:shadow-lg hover:shadow-yellow-500/20">
+                    <div class="flex items-start gap-4">
+                        <div class="text-3xl">🧠</div>
+                        <div class="flex-1">
+                            <h3 class="text-lg font-semibold text-white mb-2">
+                                BERT FineTune for Text Classification using TensorFlow
+                            </h3>
+                            <div class="text-yellow-400 font-medium mb-1">Coursera Project Network</div>
+                            <div class="text-gray-400 text-sm">Issued: 2021</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-slate-800/80 backdrop-blur-sm rounded-xl p-6 border border-slate-700 hover:border-yellow-500 transition-all hover:shadow-lg hover:shadow-yellow-500/20">
+                    <div class="flex items-start gap-4">
+                        <div class="text-3xl">🔧</div>
+                        <div class="flex-1">
+                            <h3 class="text-lg font-semibold text-white mb-2">
+                                Deploy apps to AWS Elastic Kubernetes Cluster using EKSCTL
+                            </h3>
+                            <div class="text-yellow-400 font-medium mb-1">AWS</div>
+                            <div class="text-gray-400 text-sm">Issued: 2021</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-slate-800/80 backdrop-blur-sm rounded-xl p-6 border border-slate-700 hover:border-yellow-500 transition-all hover:shadow-lg hover:shadow-yellow-500/20">
+                    <div class="flex items-start gap-4">
+                        <div class="text-3xl">🤖</div>
+                        <div class="flex-1">
+                            <h3 class="text-lg font-semibold text-white mb-2">
+                                Deploy BERT question answering bots in Django
+                            </h3>
+                            <div class="text-yellow-400 font-medium mb-1">Django</div>
+                            <div class="text-gray-400 text-sm">Issued: 2021</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-slate-800/80 backdrop-blur-sm rounded-xl p-6 border border-slate-700 hover:border-yellow-500 transition-all hover:shadow-lg hover:shadow-yellow-500/20">
+                    <div class="flex items-start gap-4">
+                        <div class="text-3xl">📚</div>
+                        <div class="flex-1">
+                            <h3 class="text-lg font-semibold text-white mb-2">
+                                Machine Learning
+                            </h3>
+                            <div class="text-yellow-400 font-medium mb-1">Stanford Online</div>
+                            <div class="text-gray-400 text-sm">Issued: 2019</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-slate-800/80 backdrop-blur-sm rounded-xl p-6 border border-slate-700 hover:border-yellow-500 transition-all hover:shadow-lg hover:shadow-yellow-500/20">
+                    <div class="flex items-start gap-4">
+                        <div class="text-3xl">🎓</div>
+                        <div class="flex-1">
+                            <h3 class="text-lg font-semibold text-white mb-2">
+                                Deep Learning Specialization
+                            </h3>
+                            <div class="text-yellow-400 font-medium mb-1">DeepLearning.AI</div>
+                            <div class="text-gray-400 text-sm">Issued: 2019</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 bg-slate-800/50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-4xl font-bold text-white mb-6">Let's Work Together</h2>
+            <p class="text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
+                Interested in AI solutions for your business? Let's discuss how we can bring your ideas to life.
+            </p>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                <a href="mailto:hasanal.baroki@gmail.com" class="inline-block bg-gradient-to-r from-blue-500 to-purple-600 text-white px-8 py-4 rounded-full text-lg font-semibold hover:from-blue-600 hover:to-purple-700 transition-all shadow-lg hover:shadow-xl">
+                    📧 hasanal.baroki@gmail.com
+                </a>
+                <a href="tel:+6281362553578" class="inline-block border-2 border-blue-400 text-blue-400 px-8 py-4 rounded-full text-lg font-semibold hover:bg-blue-400 hover:text-white transition-all">
+                    📱 +62-813-6255-3578
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-8 border-t border-slate-700">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <p class="text-gray-400">
+                © 2024 Hasanal Baroki - AI Engineer Portfolio. Built with HTML, Tailwind CSS, and JavaScript.
+            </p>
+        </div>
+    </footer>
+
+    <script>
+        // Experience data
+        const experiences = [
+            {
+                title: "Multimodal AI Chatbot Platform (Fullstack Engineer)",
+                company: "Freelance Job, Indonesia (Remote)",
+                period: "March 2025 - Present",
+                description: "Building comprehensive AI chatbot platform with multimodal capabilities including text, voice, image, and PDF processing. Integrating OpenAI GPT, LangChain Memory & Retrieval with Pinecone, OpenAI Vision, HeyGen API for avatar streaming, and ElevenLabs TTS. Implementing secure authentication, file handling, and real-time chat interfaces.",
+                technologies: ["Python", "Next.js", "TypeScript", "OpenAI GPT", "LangChain", "Pinecone", "HeyGen API", "ElevenLabs", "Firebase", "Docker", "Google Cloud Run"],
+                companyType: "freelance"
+            },
+            {
+                title: "Voice Emotion Classification API (AI Engineer)",
+                company: "Freelance Job, Indonesia (Remote)",
+                period: "December 2024 - February 2025",
+                description: "Developed voice emotion classification model using Convolutional Neural Networks (CNN) to accurately identify and classify emotional tone of voice commands. Trained on large dataset of labeled voice samples for precise predictions and deeper client interaction insights.",
+                technologies: ["Python", "CNN", "TensorFlow", "FastAPI", "Docker"],
+                companyType: "freelance"
+            },
+            {
+                title: "ID Card - Selfie Similarity & OCR (AI Engineer)",
+                company: "Freelance Job, Indonesia (Remote)",
+                period: "June 2024 - November 2024",
+                description: "Built ID card verification system with selfie similarity matching (ROC-AUC 0.91) using Dlib for face vector representation. Developed OCR system using layout language model (LayoutParser) with 0.95 accuracy and PaddleOCR. Implemented CI/CD pipeline and MLOps with Kubeflow.",
+                technologies: ["Python", "Dlib", "LayoutParser", "PaddleOCR", "FastAPI", "Docker", "GitHub Actions", "Kubeflow"],
+                companyType: "freelance"
+            },
+            {
+                title: "Google Cloud Technical Support Engineer",
+                company: "Topgate Co., Ltd. - Tokyo, Japan (Remote)",
+                period: "October 2023 - May 2024",
+                description: "Investigated customer issues across Google services including Compute Engine, BigQuery, Cloud Run, Looker Studio, Vertex AI, and open-source tools. Reproduced problems in sandbox environments and provided clear solutions for cloud-based and open-source technologies.",
+                technologies: ["Google Cloud Platform", "BigQuery", "Cloud Run", "Vertex AI", "PostgreSQL", "MySQL", "Rocky Linux"],
+                companyType: "topgate"
+            },
+            {
+                title: "Terratest Automation (DevOps Engineer)",
+                company: "Topgate Co., Ltd. - Tokyo, Japan (Remote)",
+                period: "April 2023 - September 2023",
+                description: "Built nine-module Terratest (Go) suite running in parallel on GCP. Established IaC standards with Testify assertions and integrated into GitHub Actions for PR checks and Cloud Build for smoke tests. Achieved sub-15-minute pipeline completion with zero orphaned resources.",
+                technologies: ["Go", "Terratest", "Terraform", "Google Cloud Platform", "GitHub Actions", "Cloud Build"],
+                companyType: "topgate"
+            },
+            {
+                title: "BEAMS BigQuery Pipeline (Data Engineer)",
+                company: "Topgate Co., Ltd. - Tokyo, Japan (Remote)",
+                period: "January 2023 - March 2023",
+                description: "Architected secure GCP infrastructure and event-driven ingestion pipeline moving on-prem BEAMS data to BigQuery. Designed Cloud Functions and Workflows with Dataflow transforms, orchestrated in Cloud Composer with SLA monitoring.",
+                technologies: ["Google Cloud Platform", "BigQuery", "Cloud Functions", "Dataflow", "Cloud Composer", "Terraform", "Looker Studio"],
+                companyType: "topgate"
+            },
+            {
+                title: "RAG LLM Chatbot for GCP Q&A (Fullstack AI Engineer)",
+                company: "Topgate Co., Ltd. - Tokyo, Japan (Remote)",
+                period: "October 2022 - December 2022",
+                description: "Developed RAG-powered chatbot using ChatGPT API and LangChain for Google Cloud Platform Q&A. Built backend with FastAPI and MongoDB, frontend with Next.js, implemented OAuth2 authentication, and deployed on Kubernetes with comprehensive testing.",
+                technologies: ["Python", "FastAPI", "ChatGPT API", "LangChain", "MongoDB", "Next.js", "Docker", "Kubernetes", "pytest"],
+                companyType: "topgate"
+            },
+            {
+                title: "University Portal (Infrastructure Engineer)",
+                company: "Topgate Co., Ltd. - Tokyo, Japan (Remote)",
+                period: "April 2022 - September 2022",
+                description: "Provisioned multi-zone cloud resources with Terraform, containerized services with Docker, orchestrated on Kubernetes. Built CI/CD pipeline in GitLab with observability stack using Prometheus and Grafana.",
+                technologies: ["Terraform", "Ansible", "Docker", "Kubernetes", "GitLab CI/CD", "Prometheus", "Grafana", "Nginx"],
+                companyType: "topgate"
+            },
+            {
+                title: "Feature Store API (AI Engineer)",
+                company: "Propulse Co., Ltd. - Tokyo, Japan (On-site)",
+                period: "August 2021 - December 2021",
+                description: "Developed Feature Store API using FastAPI and MongoDB for ML feature management. Implemented CRUD operations, data validation with Pydantic, and automated feature ingestion pipelines. Deployed on Kubernetes with JWT authentication.",
+                technologies: ["Python", "FastAPI", "MongoDB", "Pydantic", "Kubernetes", "JWT", "pytest"],
+                companyType: "propulse"
+            },
+            {
+                title: "Enterprise GIS Mapping Platform (Full-Stack Engineer)",
+                company: "Propulse Co., Ltd. - Tokyo, Japan (On-site)",
+                period: "March 2021 - July 2021",
+                description: "Built interactive mapping platform with Next.js and Leaflet.js featuring live geolocation, heatmaps, and boundary layers. Developed geospatial APIs and ETL pipelines for spatial data processing with Redis caching.",
+                technologies: ["Next.js", "Leaflet.js", "Python", "Redis", "NGINX", "GeoJSON"],
+                companyType: "propulse"
+            },
+            {
+                title: "HR Chatbot (AI Engineer)",
+                company: "Propulse Co., Ltd. - Tokyo, Japan (On-site)",
+                period: "March 2020 - August 2020",
+                description: "End-to-end HR chatbot development including FAQ data collection, text processing, model training with TensorFlow and Rasa framework. Deployed web application using Django on AWS with MySQL database and Selenium automated testing.",
+                technologies: ["Python", "TensorFlow", "Rasa", "Django", "AWS", "MySQL", "Selenium"],
+                companyType: "propulse"
+            },
+            {
+                title: "Mold Design Engineer",
+                company: "YKK Co., Ltd. - Toyama, Japan (On-site)",
+                period: "March 2018 - January 2020",
+                description: "Designed molds using Creo, created 2D engineering drawings, and developed automated image processing programs using OpenCV. Planned and implemented deep learning models for image classification to ensure product quality.",
+                technologies: ["Creo", "OpenCV", "Python", "Deep Learning", "Image Classification"],
+                companyType: "ykk"
+            }
+        ];
+
+        // Company color mappings
+        const companyColors = {
+            freelance: {
+                border: "border-emerald-500",
+                bg: "bg-emerald-500/10",
+                text: "text-emerald-400",
+                hover: "hover:border-emerald-400",
+                dotBg: "bg-emerald-500"
+            },
+            topgate: {
+                border: "border-blue-500",
+                bg: "bg-blue-500/10",
+                text: "text-blue-400",
+                hover: "hover:border-blue-400",
+                dotBg: "bg-blue-500"
+            },
+            propulse: {
+                border: "border-purple-500",
+                bg: "bg-purple-500/10",
+                text: "text-purple-400",
+                hover: "hover:border-purple-400",
+                dotBg: "bg-purple-500"
+            },
+            ykk: {
+                border: "border-orange-500",
+                bg: "bg-orange-500/10",
+                text: "text-orange-400",
+                hover: "hover:border-orange-400",
+                dotBg: "bg-orange-500"
+            }
+        };
+
+        let selectedExperienceIndex = 0;
+        let isDropdownOpen = false;
+
+        // Initialize the page
+        function init() {
+            populateExperienceList();
+            updateSelectedExperience(0);
+            setupEventListeners();
+        }
+
+        // Setup event listeners
+        function setupEventListeners() {
+            const dropdown = document.getElementById('experienceDropdown');
+            dropdown.addEventListener('click', toggleDropdown);
+
+            // Close dropdown when clicking outside
+            document.addEventListener('click', function(event) {
+                if (!event.target.closest('#experienceDropdown') && !event.target.closest('#experienceList')) {
+                    closeDropdown();
+                }
+            });
+        }
+
+        // Populate experience list dropdown
+        function populateExperienceList() {
+            const experienceList = document.getElementById('experienceList');
+            experienceList.innerHTML = experiences.map((exp, index) => {
+                const colors = companyColors[exp.companyType];
+                return `
+                    <button 
+                        onclick="selectExperience(${index})" 
+                        class="w-full px-6 py-4 text-left text-white hover:bg-slate-700 transition-all border-b border-slate-700 last:border-b-0 ${colors.bg}"
+                    >
+                        <div class="flex items-center gap-3 mb-2">
+                            <div class="w-3 h-3 rounded-full ${colors.dotBg}"></div>
+                            <div class="font-semibold">${exp.title}</div>
+                        </div>
+                        <div class="text-sm ml-6 ${colors.text}">
+                            ${exp.company} • ${exp.period}
+                        </div>
+                    </button>
+                `;
+            }).join('');
+        }
+
+        // Toggle dropdown
+        function toggleDropdown() {
+            isDropdownOpen = !isDropdownOpen;
+            const experienceList = document.getElementById('experienceList');
+            const arrow = document.getElementById('dropdownArrow');
+            
+            if (isDropdownOpen) {
+                experienceList.classList.remove('hidden');
+                arrow.classList.add('rotate-180');
+            } else {
+                experienceList.classList.add('hidden');
+                arrow.classList.remove('rotate-180');
+            }
+        }
+
+        // Close dropdown
+        function closeDropdown() {
+            isDropdownOpen = false;
+            const experienceList = document.getElementById('experienceList');
+            const arrow = document.getElementById('dropdownArrow');
+            experienceList.classList.add('hidden');
+            arrow.classList.remove('rotate-180');
+        }
+
+        // Select experience
+        function selectExperience(index) {
+            selectedExperienceIndex = index;
+            updateSelectedExperience(index);
+            closeDropdown();
+        }
+
+        // Update selected experience display
+        function updateSelectedExperience(index) {
+            const exp = experiences[index];
+            const colors = companyColors[exp.companyType];
+            
+            // Update dropdown button
+            document.getElementById('selectedTitle').textContent = exp.title;
+            document.getElementById('selectedCompany').textContent = `${exp.company} • ${exp.period}`;
+            document.getElementById('selectedCompany').className = `text-sm ${colors.text}`;
+            document.getElementById('selectedDot').className = `w-3 h-3 rounded-full ${colors.dotBg}`;
+            
+            // Update dropdown button styling
+            const dropdown = document.getElementById('experienceDropdown');
+            dropdown.className = `w-full bg-slate-800 border rounded-xl px-6 py-4 text-left text-white transition-all flex justify-between items-center ${colors.border} ${colors.hover}`;
+            
+            // Update experience details
+            const detailsContainer = document.getElementById('experienceDetails');
+            detailsContainer.className = `bg-slate-800/80 backdrop-blur-sm rounded-xl p-8 border ${colors.border} ${colors.bg}`;
+            
+            detailsContainer.innerHTML = `
+                <div class="mb-6">
+                    <div class="flex items-center gap-3 mb-4">
+                        <div class="w-4 h-4 rounded-full ${colors.dotBg}"></div>
+                        <h3 class="text-2xl font-bold text-white">${exp.title}</h3>
+                    </div>
+                    <div class="font-semibold mb-2 ${colors.text}">${exp.company}</div>
+                    <div class="text-gray-400 mb-4">${exp.period}</div>
+                </div>
+                
+                <p class="text-gray-300 mb-6 leading-relaxed">${exp.description}</p>
+                
+                <div>
+                    <h4 class="text-white font-semibold mb-3">Technologies Used:</h4>
+                    <div class="flex flex-wrap gap-2">
+                        ${exp.technologies.map(tech => `
+                            <span class="px-3 py-1 rounded-full text-sm border ${colors.bg} ${colors.text} ${colors.border}">
+                                ${tech}
+                            </span>
+                        `).join('')}
+                    </div>
+                </div>
+            `;
+        }
+
+        // Initialize when page loads
+        document.addEventListener('DOMContentLoaded', init);
+    </script>
+</body>
+</html> 
